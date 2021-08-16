@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/fragmentHome">
+
+    <fragment
+        android:id="@+id/eventDetailedInfoFragment"
+        android:name="com.rafaelmartorano.sicredichallenge.EventDetailedInfoFragment"
+        android:label="fragment_event_detailed_info"
+        tools:layout="@layout/fragment_event_detailed_info" >
+        <argument
+            android:name="selected_event"
+            app:argType="com.rafaelmartorano.sicredichallenge.data.model.EventItem" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentHome"
+        android:name="com.rafaelmartorano.sicredichallenge.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" >
+        <action
+            android:id="@+id/action_fragmentHome_to_eventDetailedInfoFragment"
+            app:destination="@id/eventDetailedInfoFragment"
+            app:enterAnim="@android:anim/slide_in_left"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/slide_out_right" />
+    </fragment>
+</navigation>

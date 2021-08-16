@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Sicredi Challenge</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="que_pena">Que pena :(</string>
+    <string name="mensagem_erro_requisicao">Houve um erro com sua requisição mas\nvocê pode tentar novamente!</string>
+    <string name="tentar_novamente">Tentar novamente</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="titulo_do_evento">titulo do evento</string>
+    <string name="nome">Nome</string>
+    <string name="email">Email</string>
+    <string name="check_in">Check-in</string>
+    <string name="success">Success!</string>
+    <string name="received_success_response">Received Success Response</string>
+    <string name="continue_english">Continue</string>
+    <string name="description">DESCRIPTION</string>
+    <string name="preco_placeholder">R$ 50.0</string>
+    <string name="data_placeholder">01/01/1990</string>
+    <string name="descricao_do_evento">Descricao do evento</string>
+    <string name="como_chegar">Como chegar</string>
+</resources>
