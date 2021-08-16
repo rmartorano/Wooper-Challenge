@@ -9,9 +9,9 @@
     <string name="nome">Nome</string>
     <string name="email">Email</string>
     <string name="check_in">Check-in</string>
-    <string name="success">Success!</string>
-    <string name="received_success_response">Received Success Response</string>
-    <string name="continue_english">Continue</string>
+    <string name="success">Sucesso!</string>
+    <string name="received_success_response">Check-in realizado</string>
+    <string name="continue_english">Continuar</string>
     <string name="description">DESCRIPTION</string>
     <string name="preco_placeholder">R$ 50.0</string>
     <string name="data_placeholder">01/01/1990</string>
