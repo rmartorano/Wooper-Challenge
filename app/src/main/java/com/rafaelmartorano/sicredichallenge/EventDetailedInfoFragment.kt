@@ -74,7 +74,6 @@ class EventDetailedInfoFragment : Fragment(), OnMapReadyCallback {
         )
         googleMap.moveCamera(CameraUpdateFactory.newLatLngZoom(location, 16f))
         binding.mapView.onResume()
-        Log.i("Teste", "should move camera")
     }
 
     private fun createCheckInDialog() {
