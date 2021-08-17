@@ -6,7 +6,7 @@ entra em uma nova janela com mais detalhes do evento incluíndo sua localizaçã
 Nessa mesma tela é possível realizar o check-in no evento, enviando um POST para a API e retornando um feedback ao usuário caso esse POST tenha sido realizado com sucesso ou não.  
 
 ## Arquitetura
-Para realização do teste utilizei o padrão de projeto MVVM Clean Architecture, respeitando todos os requisitos como recomenda o Google.
+Para realização do teste utilizei o padrão de projeto MVVM Clean Architecture, respeitando todos os requisitos como recomenda o Google.  Essa arquitetura é muito boa pois torna a manutenção do app muito mais fácil assim como a implementação de novas funcionalidades. Também foi utilizado Dagger Hilt para injeção de dependências.
 ![alt text](https://www.objective.com.br/wp-content/uploads/2020/01/fluxo-de-comunicacao.png)
 ## Bibliotecas utilizadas
 <!--ts-->
